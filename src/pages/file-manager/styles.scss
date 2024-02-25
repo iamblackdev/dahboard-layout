@@ -1,0 +1,30 @@
+.file_manager_page {
+	.page_title {
+		margin-bottom: 20px;
+		color: #000;
+		font-family: 'Public Sans', sans-serif;
+		font-size: 16px;
+		font-style: normal;
+		font-weight: 600;
+		line-height: 32px;
+		letter-spacing: 0.08px;
+	}
+
+	.media_details {
+		display: flex;
+		flex-direction: column;
+		row-gap: 8px;
+		span {
+			color: #000;
+			font-family: 'Public Sans', sans-serif;
+			font-size: 16px;
+			font-weight: 400;
+			line-height: 32px;
+			letter-spacing: 0.08px;
+		}
+		.title {
+			font-weight: 600;
+			margin-top: 12px;
+		}
+	}
+}

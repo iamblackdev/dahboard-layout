@@ -1,0 +1,22 @@
+.dashboard_page {
+	.filters {
+		padding: 4px;
+		display: flex;
+		align-items: center;
+		border-radius: 8px;
+		border: 1px solid #e0e2e7;
+		background: #fff;
+		overflow: hidden;
+		overflow-x: auto;
+
+		span {
+			white-space: nowrap;
+			cursor: pointer;
+			padding: 6px 12px;
+			border-radius: 6px;
+			&.active {
+				background: #f0f1f3;
+			}
+		}
+	}
+}
